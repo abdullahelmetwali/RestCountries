@@ -54,7 +54,7 @@ const seeWhatCountry = (country) => {
                 <div class="bord-coun">
                     <p><strong>Border Countries:</strong></p>
                         <div class="cont-borders ">
-                        ${country.borders.length > 1 ? '' : 'Nothing'}
+                        ${country?.borders?.length > 1 ? '' : 'Nothing'}
                         </div>
                 </div>
             </div>
